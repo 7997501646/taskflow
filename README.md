@@ -1,14 +1,14 @@
 # \# TaskFlow
 
-# 
+#
 
 # TaskFlow is a simple Daily Habit Tracker built using HTML, CSS, and JavaScript.
 
-# 
+#
 
 # \## Features
 
-# 
+#
 
 # \- Add a daily habit
 
@@ -18,11 +18,11 @@
 
 # \- Display a habit list
 
-# 
+#
 
 # \## Technologies Used
 
-# 
+#
 
 # \- HTML
 
@@ -33,4 +33,3 @@
 # \- Git
 
 # \- GitHub
-

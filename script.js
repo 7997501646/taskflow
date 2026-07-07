@@ -1,17 +1,11 @@
-function saveHabit(){
+function saveHabit() {
+  let habit = document.getElementById("habit").value;
 
-let habit=document.getElementById("habit").value;
+  if (habit == "") {
+    alert("Enter a habit");
 
-if(habit==""){
+    return;
+  }
 
-alert("Enter a habit");
-
-return;
-
-}
-
-document.getElementById("result").innerHTML=
-
-"Habit Saved : "+habit;
-
+  document.getElementById("result").innerHTML = "Habit Saved : " + habit;
 }

@@ -1,69 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+  <head>
+    <title>TaskFlow</title>
 
-<head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<title>TaskFlow</title>
+  <body>
+    <div class="container">
+      <h1>Daily Habit Tracker</h1>
 
-<link rel="stylesheet" href="style.css">
+      <p>Track your daily habits</p>
 
-</head>
+      <input type="text" id="habit" placeholder="Enter Habit" />
 
-<body>
+      <select id="status">
+        <option>Completed</option>
 
-<div class="container">
+        <option>Pending</option>
+      </select>
 
-<h1>Daily Habit Tracker</h1>
+      <button onclick="saveHabit()">Save Habit</button>
 
-<p>Track your daily habits</p>
+      <p id="result"></p>
 
-<input
-type="text"
-id="habit"
-placeholder="Enter Habit">
+      <hr />
 
-<select id="status">
+      <h2>Today's Progress</h2>
 
-<option>Completed</option>
+      <hr />
 
-<option>Pending</option>
+      <h2>Habit List</h2>
 
-</select>
+      <ul>
+        <li>Drink Water</li>
 
-<button onclick="saveHabit()">
+        <li>Exercise</li>
 
-Save Habit
+        <li>Read Books</li>
+      </ul>
 
-</button>
+      <p>Completed Habits : 3</p>
 
-<p id="result"></p>
+      <p>Pending Habits : 2</p>
+    </div>
 
-<hr>
-
-<h2>Today's Progress</h2>
-
-<hr>
-
-<h2>Habit List</h2>
-
-<ul>
-
-<li>Drink Water</li>
-
-<li>Exercise</li>
-
-<li>Read Books</li>
-
-</ul>
-
-<p>Completed Habits : 3</p>
-
-<p>Pending Habits : 2</p>
-
-</div>
-
-<script src="script.js"></script>
-
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
